@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonders of China – Explore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- REQUIREMENT 3: Skip to Main Content -->
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+    <!-- REQUIREMENT 4 & 7: Nav styled with flex and CSS properties -->
+    <nav>
+        <a class="nav-brand" href="index.html">Wonders of China</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="explore.html" class="active">Explore</a></li>
+        </ul>
+    </nav>
+
+    <header class="site-header">
+        <h1>Explore China</h1>
+        <p class="tagline">Destination highlights, travel facts, and trip planning essentials</p>
+    </header>
+
+    <main id="main-content">
+
+        <!-- Feature sections: flex row layout (REQUIREMENT 7) -->
+        <h2>Destination Highlights</h2>
+
+        <div class="feature-block">
+            <img src="https://images.pexels.com/photos/18709771/pexels-photo-18709771.jpeg"
+                 alt="The Great Wall stretching across mountain ridges at sunrise">
+            <div>
+                <h3>The Great Wall of China</h3>
+                <p>
+                    Construction of the wall began as early as the 7th century BC. The most
+                    famous sections near Beijing — Badaling, Mutianyu, and Jinshanling — were
+                    built during the Ming Dynasty (1368–1644). Visiting at dawn, before the
+                    crowds arrive, is one of China's most unforgettable experiences.
+                </p>
+                <ul class="fact-list">
+                    <li>Location: Northern China, from Shanhaiguan to Jiayuguan Pass</li>
+                    <li>Best time to visit: April–May or September–November</li>
+                    <li>UNESCO World Heritage Site since 1987</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="feature-block">
+            <img src="https://images.pexels.com/photos/17642910/pexels-photo-17642910.jpeg"
+                 alt="Red palace rooftops of the Forbidden City seen from above">
+            <div>
+                <h3>The Forbidden City, Beijing</h3>
+                <p>
+                    Covering 72 hectares and containing over 9,000 rooms, the Forbidden City is
+                    the world's largest preserved ancient wooden palace complex. Completed in 1420,
+                    it served as the ceremonial and political heart of Chinese government for nearly
+                    500 years. Today it is home to the Palace Museum with a collection of over a
+                    million artefacts.
+                </p>
+                <ul class="fact-list">
+                    <li>Location: Tiananmen Square, Beijing</li>
+                    <li>Best time to visit: Weekday mornings in spring or autumn</li>
+                    <li>UNESCO World Heritage Site since 1987</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="feature-block">
+            <img src="https://images.pexels.com/photos/34683510/pexels-photo-34683510.jpeg"
+                 alt="Sandstone pillars covered in forest rising above the cloud sea in Zhangjiajie">
+            <div>
+                <h3>Zhangjiajie National Forest Park</h3>
+                <p>
+                    Established in 1982 as China's first national forest park, Zhangjiajie is
+                    famous for its more than 3,000 quartzite sandstone pillars — the tallest of
+                    which rises 1,080 metres. The Bailong Elevator, the world's tallest outdoor
+                    lift, carries visitors from the valley floor to viewing platforms at cliff level.
+                </p>
+                <ul class="fact-list">
+                    <li>Location: Hunan Province, central China</li>
+                    <li>Best time to visit: March–May or October–November</li>
+                    <li>UNESCO World Heritage Site (part of Wulingyuan) since 1992</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- REQUIREMENT 7 (flex) + REQUIREMENT 9 (nth-child alternating border-radius) -->
+        <h2>Quick Visual Tour</h2>
+        <p>
+            A selection of scenes from across China — notice how every other photograph has a
+            different frame shape, thanks to the CSS <code>nth-child</code> selector.
+        </p>
+
+        <div class="flex-gallery">
+            <img src="https://images.pexels.com/photos/18709771/pexels-photo-18709771.jpeg"
+                 alt="The Great Wall of China winding over green mountains">
+            <img src="https://images.pexels.com/photos/17642910/pexels-photo-17642910.jpeg"
+                 alt="Rooftops of the Forbidden City in Beijing">
+            <img src="https://images.pexels.com/photos/34683510/pexels-photo-34683510.jpeg"
+                 alt="Zhangjiajie sandstone towers in mist">
+            <img src="https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg"
+                 alt="Karst mountains reflected in Li River near Guilin">
+            <img src="https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg"
+                 alt="Terracotta warriors standing in formation in Xi'an">
+            <img src="https://images.pexels.com/photos/2074202/pexels-photo-2074202.jpeg"
+                 alt="Pagoda at West Lake Hangzhou at dusk">
+        </div>
+
+        <h2>Essential Travel Facts</h2>
+        <ul class="fact-list">
+            <li>Currency: Chinese Yuan (CNY / RMB). Most cities accept mobile payments (WeChat Pay, Alipay).</li>
+            <li>Language: Mandarin Chinese (Putonghua) is the official language; English is widely spoken in tourist areas.</li>
+            <li>Visa: Most nationalities require a visa; China introduced a 144-hour transit visa-free policy for many countries.</li>
+            <li>Getting around: China's high-speed rail network (HSR) is the largest in the world — fast, affordable, and punctual.</li>
+            <li>Time zone: All of China operates on a single time zone: China Standard Time (CST / UTC+8).</li>
+        </ul>
+
+        <p>
+            Plan your journey at <a href="https://www.chinahighlights.com" target="_blank"
+            rel="noopener noreferrer">China Highlights</a> or browse the
+            <a href="gallery.html">Gallery</a> for more photography.
+        </p>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Wonders of China. All rights reserved.
+            | <a href="index.html">Home</a>
+            | <a href="gallery.html">Gallery</a>
+            | <a href="explore.html">Explore</a>
+        </p>
+    </footer>
+
+</body>
+</html>
